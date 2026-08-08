@@ -3,9 +3,9 @@ title Amount Denominations Distinguisher
 echo Compiling and running application...
 echo.
 
-javac Main.java
+javac Code.java
 if %errorlevel% equ 0 (
-    java Main
+    java Code
 ) else (
     echo Compilation failed. Please check your Java code.
 )
