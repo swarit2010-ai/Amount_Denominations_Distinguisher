@@ -28,3 +28,24 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Java / Maven / Gradle / jpackage ###
+# Compiled class files
+*.class
+
+# Maven build outputs
+/target/
+.mvn/
+
+# Gradle build outputs
+/build/
+.gradle/
+
+# Bundled runtimes and local jpackage app outputs
+/runtime/
+/app/
+*.exe
+*.msi
+*.dmg
+*.deb
+*.rpm
