@@ -5,7 +5,7 @@ echo.
 
 javac Code.java
 if %errorlevel% equ 0 (
-    java Code
+    java Code.java
 ) else (
     echo Compilation failed. Please check your Java code.
 )
